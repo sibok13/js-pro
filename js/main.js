@@ -6,10 +6,10 @@ const products = [
     {id: 5},
 ];
 
-const renderProduct = (title = "н/д", price = "0") => {
+const renderProduct = (title = "н/д", price = "0", img = "http://placehold.it/120x140") => {
     return `<div class="product-item">
-                <h3>${title}</h3>
-                <img src="">
+                <h3 class="card-h3">${title}</h3>
+                <img src="${img}">
                 <p>Цена: ${price} руб.</p>
                 <button class="by-btn">Добавить в корзину</button>
             </div>`;
