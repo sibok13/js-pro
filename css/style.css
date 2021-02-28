@@ -75,3 +75,42 @@ img {
     border-color: #2f2a2d;
     color: #2f2a2d;
 }
+.basket-btn, .add, .dell{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #2f2a2d;
+    cursor: pointer;
+}
+.basket-btn:hover, .add:hover, .dell:hover{
+    color: #bb8e8e;
+}
+.basket-item{
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+table {
+    width: 100%;
+    padding: 5px;
+}
+td{
+    padding: 5px 15px;
+    background-color: #ffffff;
+    margin: 2px;
+    color: black;
+}
+thead{
+    font-weight:bold;
+}
+.basket{
+    position: absolute;
+    right: 100px;
+    top: 70px;
+    background-color: grey;
+}
+.disp-none {
+    display: none;
+}
