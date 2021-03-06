@@ -18,8 +18,17 @@ const app = new Vue({
                 })
         },
         addProduct(product) {
-            console.log(product);
-            this.basket.push(product); // условие с добавлением нового объекта или цифры в счетчик
+            if(this.basket.length != 0){
+                this.basket.forEach(element => {
+                    if(element.id_product == product.id_product){
+                        element.total ++
+                    } if else()
+
+                    this.basket.push({id_product: product.id_product, price: product.price, product_name: product.product_name, total: 1});
+                });
+            } else {
+                this.basket.push({id_product: product.id_product, price: product.price, product_name: product.product_name, total: 1});
+            }
             console.log(this.basket.length);
         },
         clickHandler(){

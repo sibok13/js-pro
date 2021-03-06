@@ -26,9 +26,10 @@
                     <img class="basket-img" :src="imgCatalog" alt="Some img">
                     <div class="desc">
                         <h3>{{item.product_name}}</h3>
-                        <p>Кол-во: шт.</p>
-                        <p>Стоимость: {{item.price}}₽</p>
-                        <button class="buy-btn" @click="addProduct(item)">Купить</button>
+                        <p>Кол-во: {{item.total}} шт.</p>
+                        <p>Стоимость: {{item.total*item.price}}₽</p>
+                        <button class="buy-btn" @click="addProduct(item)">+</button>
+                        <button class="del-btn" @click="delProduct(item)">-</button>
                     </div>
                 </div>
             </div>
