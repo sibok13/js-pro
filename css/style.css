@@ -33,12 +33,6 @@ button:focus{
 .btn-cart, .logo{
     align-self: center;
 }
-/*.products {*/
-/*display: flex;*/
-/*justify-content: space-between;*/
-/*flex-wrap: wrap;*/
-/*padding: 40px 80px;*/
-/*}*/
 .products{
     column-gap: 30px;
     display: grid;
@@ -182,10 +176,6 @@ img {
     border-radius: 5px;
     text-align: center;
 }
-.h3-basket {
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
 hr {
     border: 0px;
     background-color: darkgray;
@@ -207,5 +197,10 @@ hr {
     margin: 5px 0;
 }
 .basket-item h3 {
+    margin: 0;
+    font-size: smaller;
+}
+.basket-item p {
     margin-top: 0;
+    font-size: smaller;
 }

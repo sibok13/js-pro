@@ -12,8 +12,8 @@
         <div class="logo">Интернет-магазин</div>
         <div class="cart">
             <form action="#" class="search-form">
-                <input type="text" class="search-field">
-                <button class="btn-search" type="submit">
+                <input type="text" class="search-field" v-model="search">
+                <button class="btn-search" type="submit" @click="filterList()">
                     <i class="fas fa-search"></i>
                 </button>
             </form>
@@ -25,13 +25,13 @@
                 <div class="basket-item" v-for="item of basket" :key="item.id_product">
                     <img class="basket-img" :src="imgCatalog" alt="Some img">
                     <div class="desc">
-                        <h3>{{item.product_name}}</h3>
-                        <p>Кол-во: {{item.total}} шт.</p>
-                        <p>Стоимость: {{item.total*item.price}}₽</p>
+                        <h3>{{item.product_name}}: {{item.quantity}} шт.</h3>
+                        <p>Цена: {{item.quantity*item.price}}₽</p>
                         <button class="buy-btn" @click="addProduct(item)">+</button>
                         <button class="del-btn" @click="delProduct(item)">-</button>
                     </div>
                 </div>
+                {{ totalBasket() }}
             </div>
         </div>
     </header>

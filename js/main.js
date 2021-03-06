@@ -4,10 +4,12 @@ const app = new Vue({
     el: '#app',
     data: {
         catalogUrl: '/catalogData.json',
+        basketUrl: '/getBasket.json',
         imgCatalog: 'https://placehold.it/200x150',
         products: [],
         basket: [], //делаем в массиве объекты, где есть кол-во и товары
         isVisibleCart: true,
+        search: '',
     },
     methods: {
         getJson(url){
@@ -18,18 +20,20 @@ const app = new Vue({
                 })
         },
         addProduct(product) {
-            if(this.basket.length != 0){
-                this.basket.forEach(element => {
-                    if(element.id_product == product.id_product){
-                        element.total ++
-                    } if else()
-
-                    this.basket.push({id_product: product.id_product, price: product.price, product_name: product.product_name, total: 1});
-                });
+            let result = this.basket.find(item => item.id_product == product.id_product);
+            if(result){
+                result.quantity ++
             } else {
-                this.basket.push({id_product: product.id_product, price: product.price, product_name: product.product_name, total: 1});
+                    this.basket.push({id_product: product.id_product, price: product.price, product_name: product.product_name, quantity: 1});
+                }
+        },
+        delProduct(product){
+            let result = this.basket.find(item => item.id_product == product.id_product);
+            if(result.quantity > 1){
+                result.quantity --
+            } else {
+                this.basket.splice(this.basket.indexOf(result), 1);
             }
-            console.log(this.basket.length);
         },
         clickHandler(){
             if(this.isVisibleCart == true){
@@ -41,6 +45,18 @@ const app = new Vue({
             if(this.basket.length == 0){
                 return 'Товаров нет';
             }
+        },
+        totalBasket(){
+            let totalQuantity = 0;
+            let totalSumm = 0;
+            this.basket.forEach(element => {
+                totalQuantity += element.quantity;
+                totalSumm += element.price * element.quantity;
+            });
+            return `Количество: ${totalQuantity} Сумма: ${totalSumm}`
+        },
+        filterList(){
+            console.log(this.search);
         }
     },
     // beforeCreate() {
@@ -52,6 +68,12 @@ const app = new Vue({
             .then(data => {
                 for(let el of data){
                     this.products.push(el);
+                }
+            });
+        this.getJson(`${API + this.basketUrl}`)
+            .then(data => {
+                for(let el of data.contents){
+                    this.basket.push({id_product: el.id_product, price: el.price, product_name: el.product_name, quantity: el.quantity});
                 }
             });
     },
