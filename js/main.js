@@ -7,7 +7,8 @@ const app = new Vue({
         basketUrl: '/getBasket.json',
         imgCatalog: 'https://placehold.it/200x150',
         products: [],
-        basket: [], //делаем в массиве объекты, где есть кол-во и товары
+        filtredProducts: [],
+        basket: [],
         isVisibleCart: true,
         search: '',
     },
@@ -55,8 +56,14 @@ const app = new Vue({
             });
             return `Количество: ${totalQuantity} Сумма: ${totalSumm}`
         },
-        filterList(){
-            console.log(this.search);
+        filterList(event){
+            event.preventDefault();
+            if(this.search.length){
+                let result = this.products.filter(prod => prod.product_name.toLowerCase().includes(this.search.toLowerCase()));
+                this.filtredProducts = result;
+            } else {
+                this.filtredProducts = this.products;
+            }
         }
     },
     // beforeCreate() {
@@ -69,6 +76,7 @@ const app = new Vue({
                 for(let el of data){
                     this.products.push(el);
                 }
+                this.filtredProducts = this.products;
             });
         this.getJson(`${API + this.basketUrl}`)
             .then(data => {
