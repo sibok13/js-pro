@@ -8,6 +8,7 @@ const app = new Vue({
                 .then(result => result.json())
                 .catch(error => {
                     console.log(error);
+                    this.$refs.errorBox.alertErr();
                 })
         },
     },
@@ -15,4 +16,3 @@ const app = new Vue({
         console.log(this);
     }
 });
-

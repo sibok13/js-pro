@@ -5,13 +5,6 @@ Vue.component('products', {
             products: [],
             filtered: [],
             imgCatalog: 'https://placehold.it/200x150',
-            foo: 'Foo',
-        }
-    },
-    methods: {
-        filter(){
-            let regexp = new RegExp(this.userSearch, 'i');
-            this.filtered = this.products.filter(el => regexp.test(el.product_name));
         }
     },
     mounted(){
