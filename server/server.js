@@ -105,6 +105,28 @@ app.delete('/api/cart/:id', (req, res) => {
   });
 });
 
+// Лог корзины
+app.post('/api/stats', (req, res) => {
+  fs.readFile('./server/db/stats.json', 'utf-8', (err, data) => {
+    if (err) {
+      res.sendStatus(404, JSON.stringify({result: 0, text: err}));
+    } else {
+      // парсим текущую корзину
+      const statsLog = JSON.parse(data);
+      // добавляем новый товар
+      statsLog.push(req.body);
+      // пишем обратно
+      fs.writeFile('./server/db/stats.json', JSON.stringify(statsLog), (err) => {
+        if (err) {
+          res.send('{"result": 0}');
+        } else {
+          res.send('{"result": 1}');
+        }
+      })
+    }
+  });
+});
+
 /**
  * Запуск сервера
  * @type {string|number}

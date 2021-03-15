@@ -13,6 +13,7 @@ Vue.component('cart', {
             if(find){
                 this.$parent.putJson(`/api/cart/${find.id_product}`, {quantity: 1});
                 find.quantity++;
+                this.statusLog(find, 'add quantity');
             } else {
                 let prod = Object.assign({quantity: 1}, product);
                 this.$parent.postJson('/api/cart', prod)
@@ -21,6 +22,7 @@ Vue.component('cart', {
                           this.cartItems.push(prod);
                       }
                   });
+                  this.statusLog(prod, 'add prod');
             }
         },
         remove(item) {
@@ -31,12 +33,19 @@ Vue.component('cart', {
                                 item.quantity += -1;
                         }
                     });
+                    this.statusLog(item, 'remove quantity');
             } else {
                 this.$parent.deleteJson(`/api/cart/${item.id_product}`)
                         .then(() => {
                             this.cartItems.splice(this.cartItems.indexOf(item), 1);
                         });
+                    this.statusLog(item, 'remove item');
                     }
+        },
+        statusLog(obj, action) {
+            let now = new Date();
+            let statsLog = {data: now, id_product: obj.id_product, action: action};
+            this.$parent.postJson(`/api/stats/`, statsLog);
         },
     },
     mounted(){
