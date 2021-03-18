@@ -1,7 +1,6 @@
 Vue.component('cart', {
     data(){
       return {
-          imgCart: 'https://placehold.it/50x100',
           cartItems: [],
           showCart: false,
       }
@@ -39,6 +38,14 @@ Vue.component('cart', {
                     });
             }
         },
+        totalSumm() {
+            return function() {
+                let result = 0;
+                for(let i = 0; i < this.cartItems.lenth; i++){
+                    result += this.cartItems[i].price * this.cartItems[i].quantity;
+                }
+            }
+        }
     },
     mounted(){
         this.$parent.getJson('/api/cart')
@@ -49,35 +56,36 @@ Vue.component('cart', {
             });
     },
     template: `
-        <div>
-            <button class="btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
-            <div class="cart-block" v-show="showCart">
+        <div class="dropdown">
+            <div class="account-btn" type="button" @click="showCart = !showCart">My Account&nbsp;&nbsp;</div>
+            <div class="drop account-drop" v-show="showCart">
                 <p v-if="!cartItems.length">Корзина пуста</p>
                 <cart-item class="cart-item" 
                 v-for="item of cartItems" 
                 :key="item.id_product"
                 :cart-item="item" 
-                :img="imgCart"
                 @remove="remove">
                 </cart-item>
+            <div class="total-drop-box">
+                <div>ИТОГО</div>
+                <div>{{totalSumm()}}₽</div>
+            </div>
+             <a class="drop-box-btn pink-btn" href="checkout.html">Checkout</a>
+             <a class="drop-box-btn" href="shopping-%D1%81art.html">Go to cart</a>
             </div>
         </div>`
 });
 
 Vue.component('cart-item', {
-    props: ['cartItem', 'img'],
+    props: ['cartItem'],
     template: `
-                <div class="cart-item">
-                    <div class="product-bio">
-                        <img :src="img" alt="Some image">
-                        <div class="product-desc">
-                            <p class="product-title">{{cartItem.product_name}}</p>
-                            <p class="product-quantity">Количество: {{cartItem.quantity}}</p>
-                            <p class="product-single-price">{{cartItem.price}}₽ за единицу</p>
-                        </div>
-                    </div>
-                    <div class="right-block">
-                        <p class="product-price">{{cartItem.quantity*cartItem.price}}₽</p>
+                <div class="account-drop-box">
+                    <img :src=cartItem.img alt="Some image" class="drop-account-img">
+                    <div>
+                        <h2>{{cartItem.product_name}}</h2>
+                        <img src="img/stars.png" alt="stars">
+                        <div>{{cartItem.quantity}} x {{cartItem.price}} ₽</div>
+                        <h2>{{cartItem.quantity*cartItem.price}}₽</h2>
                         <button class="del-btn" @click="$emit('remove', cartItem)">&times;</button>
                     </div>
                 </div>

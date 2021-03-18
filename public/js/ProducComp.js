@@ -3,7 +3,6 @@ Vue.component('products', {
         return {
             products: [],
             filtered: [],
-            imgCatalog: 'https://placehold.it/200x150',
         }
     },
     methods: {
@@ -23,13 +22,13 @@ Vue.component('products', {
     },
     template: `
         <div class="products">
-            <product v-for="item of filtered" :key="item.id_product" :img="imgCatalog" :product="item"></product>
+            <product v-for="item of filtered" :key="item.id_product" :product="item"></product>
         </div>
     `
 });
 
 Vue.component('product', {
-    props: ['product', 'img'],
+    props: ['product'],
     data() {
       return {
           /**

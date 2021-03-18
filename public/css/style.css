@@ -300,6 +300,9 @@ menu-conteiner {
   margin-top: 19px;
   margin-bottom: 21px;
 }
+.drop-account-img {
+  width: 50%
+}
 .drop-box-btn {
   display: block;
   width: 100%;
