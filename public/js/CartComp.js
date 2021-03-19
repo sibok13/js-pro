@@ -39,12 +39,13 @@ Vue.component('cart', {
             }
         },
         totalSumm() {
-            return function() {
                 let result = 0;
-                for(let i = 0; i < this.cartItems.lenth; i++){
-                    result += this.cartItems[i].price * this.cartItems[i].quantity;
-                }
+                console.log(this.cartItems.lenth);
+                for(let el of this.cartItems){
+                    console.log(el);
+                result += el.price * el.quantity;
             }
+            return result;
         }
     },
     mounted(){
