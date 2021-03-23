@@ -4,13 +4,6 @@
     "contents": [
         {
             "quantity": 1,
-            "id_product": 100,
-            "product_name": "Футболка мужская",
-            "price": 1600,
-            "img": "img/item-100.png"
-        },
-        {
-            "quantity": 1,
             "id_product": 102,
             "product_name": "Куртка",
             "price": 1800,
