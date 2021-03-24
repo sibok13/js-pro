@@ -40,9 +40,7 @@ Vue.component('cart', {
         },
         totalSumm() {
                 let result = 0;
-                console.log(this.cartItems.lenth);
                 for(let el of this.cartItems){
-                    console.log(el);
                 result += el.price * el.quantity;
             }
             return result;
@@ -58,7 +56,7 @@ Vue.component('cart', {
     },
     template: `
         <div class="dropdown">
-            <div class="account-btn" type="button" @click="showCart = !showCart">My Account&nbsp;&nbsp;</div>
+            <div class="account-btn" type="button" @click="showCart = !showCart">Моя корзина&nbsp;&nbsp;</div>
             <div class="drop account-drop" v-show="showCart">
                 <p v-if="!cartItems.length">Корзина пуста</p>
                 <cart-item class="cart-item" 
@@ -71,8 +69,7 @@ Vue.component('cart', {
                 <div>ИТОГО</div>
                 <div>{{totalSumm()}}₽</div>
             </div>
-             <a class="drop-box-btn pink-btn" href="checkout.html">Checkout</a>
-             <a class="drop-box-btn" href="shopping-%D1%81art.html">Go to cart</a>
+             <a class="drop-box-btn pink-btn" href="shopping-сart.html">В корзину</a>
             </div>
         </div>`
 });

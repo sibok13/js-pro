@@ -39,7 +39,6 @@ Vue.component('product', {
           cartAPI: this.$root.$refs.cart, // добираемся до компонента корзины, чтобы далее использовать метод добавления
       };
     },
-
     template: `
     <div class="fetured-card">
             <div class="overlay">

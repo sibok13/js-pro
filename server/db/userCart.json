@@ -4,17 +4,24 @@
     "contents": [
         {
             "quantity": 1,
+            "id_product": 101,
+            "product_name": "Блузка",
+            "price": 1700,
+            "img": "img/item-101.png"
+        },
+        {
+            "quantity": 1,
             "id_product": 102,
             "product_name": "Куртка",
             "price": 1800,
             "img": "img/item-102.png"
         },
         {
-            "quantity": 2,
-            "id_product": 101,
-            "product_name": "Блузка",
-            "price": 1700,
-            "img": "img/item-101.png"
+            "quantity": 1,
+            "id_product": 100,
+            "product_name": "Футболка мужская",
+            "price": 1600,
+            "img": "img/item-100.png"
         }
     ]
 }
