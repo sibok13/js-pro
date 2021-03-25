@@ -38,6 +38,19 @@ Vue.component('cart', {
                     });
             }
         },
+        removeAll() {
+            if(!this.cartItems.lengh){
+                for(let el of this.cartItems){
+                    console.log(el);
+                    this.$parent.deleteJson(`/api/cart/${el.id_product}`)
+                        .then(data => {
+                            if (data.result === 1) {
+                                this.cartItems.splice(this.cartItems.indexOf(el), 1);
+                            }
+                        });
+                    }
+            }
+        },
         totalSumm() {
                 let result = 0;
                 for(let el of this.cartItems){
@@ -63,7 +76,8 @@ Vue.component('cart', {
                 v-for="item of cartItems" 
                 :key="item.id_product"
                 :cart-item="item" 
-                @remove="remove">
+                @remove="remove"
+                @addProduct="addProduct">
                 </cart-item>
             <div class="total-drop-box">
                 <div>ИТОГО</div>
@@ -84,7 +98,7 @@ Vue.component('cart-item', {
                         <img src="img/stars.png" alt="stars">
                         <div>{{cartItem.quantity}} x {{cartItem.price}} ₽</div>
                         <h2>{{cartItem.quantity*cartItem.price}}₽</h2>
-                        <button class="del-btn" @click="$emit('remove', cartItem)">&times;</button>
+                        <button class="shopping-card-action" @click="$emit('addProduct', cartItem)"><i class="far fa-plus-square"></i></button><button class="shopping-card-action" @click="$emit('remove', cartItem)"><i class="far fa-minus-square"></i></button>
                     </div>
                 </div>
     `

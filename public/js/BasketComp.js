@@ -1,7 +1,7 @@
 Vue.component('basket', {
     data(){
       return {
-        cartItems: this.$root.$refs.cart.cartItems,
+        cartAPI: this.$root.$refs.cart,
         showCart: false,
       }
     },
@@ -18,12 +18,13 @@ Vue.component('basket', {
                 <td class="shopping-card-td centred">Итого</td>
                 <td class="shopping-card-td right">Действия</td>
             </tr>
-            <basket-item class="" v-for="item of cartItems" :key="item.id" :cart-item="item">
+            <basket-item class="" v-for="item of cartAPI.cartItems" :key="item.id" :cart-item="item">
             </basket-item>
         </table>
+        <p class="empty" v-if="!cartAPI.cartItems.length">Корзина пуста</p>
         </div>
         <div class="shopping-card-footer">
-        <button class="shopping-card-endbtn">ОЧИСТИТЬ КОРЗИНУ</button>
+        <button class="shopping-card-endbtn" @click="cartAPI.removeAll()">ОЧИСТИТЬ КОРЗИНУ</button>
         <a href="index.html" class="shopping-card-endbtn">ПРОДОЛЖИТЬ ПОКУПКИ</a>
     </div>
     <form action="" class="shopping-card-checkout">
@@ -75,7 +76,7 @@ Vue.component('basket-item', {
                 <td class="shopping-card-td shopping-card-text centred">FREE</td>
                 <td class="shopping-card-td shopping-card-text centred">{{cartItem.quantity*cartItem.price}}₽</td>
                 <td class="shopping-card-td centred">
-                    <button class="shopping-card-action" @click="cartAPI.remove(cartItem)"><i class="fas fa-times-circle"></i></button>
+                <button class="shopping-card-action" @click="cartAPI.addProduct(cartItem)"><i class="fas fa-plus-circle"></i></button><button class="shopping-card-action" @click="cartAPI.remove(cartItem)"><i class="fas fa-minus-circle"></i></button>
                 </td>
             </tr>
     `

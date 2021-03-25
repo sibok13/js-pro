@@ -1212,6 +1212,14 @@ filters-title {
   padding: 0;
   cursor: pointer;
   outline: 0;
+  color: #f16d7f;
+  margin-right: 5px;
+  font-size: 16px;
+}
+.empty {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .shopping-card-footer {
   display: flex;

@@ -1,917 +1,327 @@
 [
     {
-        "time": "30 Jan 2020, 7:54:11 pm",
-        "action": "change"
-    },
-    {
-        "time": "30 Jan 2020, 7:54:15 pm",
-        "action": "change"
-    },
-    {
-        "time": "30 Jan 2020, 7:54:20 pm",
-        "action": "change"
-    },
-    {
-        "time": "30 Jan 2020, 7:54:21 pm",
-        "prod_name": "Мышка",
-        "action": "add"
-    },
-    {
-        "time": "30 Jan 2020, 7:54:22 pm",
-        "action": "remove"
-    },
-    {
-        "time": "30 Jan 2020, 7:54:22 pm",
-        "action": "remove"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:14 pm",
-        "action": "change"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:16 pm",
-        "action": "change"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:17 pm",
-        "action": "remove"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:18 pm",
-        "action": "remove"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:21 pm",
-        "prod_name": "Ноутбук",
-        "action": "add"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:21 pm",
-        "prod_name": "Gamepad",
-        "action": "add"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:22 pm",
-        "prod_name": "Keyboard",
-        "action": "add"
-    },
-    {
-        "time": "30 Jan 2020, 8:06:23 pm",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:09 pm",
-        "prod_name": "Ноутбук",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:10 pm",
-        "prod_name": "Ноутбук",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:11 pm",
-        "prod_name": "Gamepad",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:13 pm",
-        "prod_name": "Keyboard",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:19 pm",
-        "prod_name": "Gamepad",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:20 pm",
-        "prod_name": "Gamepad",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:23 pm",
-        "prod_name": "Keyboard",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:23 pm",
-        "prod_name": "Keyboard",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:29 pm",
-        "prod_name": "Gamepad",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:29 pm",
-        "prod_name": "Gamepad",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:29 pm",
-        "prod_name": "Keyboard",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:04:30 pm",
-        "prod_name": "Keyboard",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:27 pm",
-        "prod_name": "Keyboard",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:28 pm",
-        "prod_name": "Keyboard",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:28 pm",
-        "prod_name": "Keyboard",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:29 pm",
-        "prod_name": "Gamepad",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:29 pm",
-        "prod_name": "Gamepad",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:31 pm",
-        "prod_name": "Keyboard",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:31 pm",
-        "prod_name": "Keyboard",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:32 pm",
-        "prod_name": "Keyboard",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:32 pm",
-        "prod_name": "Gamepad",
-        "action": "change"
-    },
-    {
-        "time": "17 Mar 2021, 8:46:32 pm",
-        "prod_name": "Gamepad",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:49:08 pm",
-        "prod_name": "Gamepad",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 8:49:10 pm",
-        "prod_name": "Gamepad",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:49:42 pm",
-        "prod_name": "Gamepad",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 8:49:43 pm",
-        "prod_name": "Gamepad",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 8:49:50 pm",
-        "prod_name": "Gamepad",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 8:49:52 pm",
-        "prod_name": "Gamepad",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 10:48:02 pm",
-        "prod_name": "Mango People T-shirt 4",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 10:48:06 pm",
-        "prod_name": "Mango People T-shirt 4",
-        "action": "remove"
-    },
-    {
-        "time": "17 Mar 2021, 10:48:08 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "add"
-    },
-    {
-        "time": "17 Mar 2021, 10:48:11 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "remove"
-    },
-    {
-        "time": "18 Mar 2021, 9:58:13 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "add"
-    },
-    {
-        "time": "18 Mar 2021, 9:58:19 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "remove"
-    },
-    {
-        "time": "18 Mar 2021, 10:13:38 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "18 Mar 2021, 10:13:43 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:23:14 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "add"
-    },
-    {
-        "time": "18 Mar 2021, 10:23:22 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:23:23 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "18 Mar 2021, 10:23:24 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "remove"
-    },
-    {
-        "time": "18 Mar 2021, 10:23:29 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "18 Mar 2021, 10:23:34 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "add"
-    },
-    {
-        "time": "18 Mar 2021, 10:23:35 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:26:02 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:39 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:40 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:41 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:42 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "remove"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:43 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:45 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "add"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:45 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:39:47 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "18 Mar 2021, 10:57:30 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:02 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:02 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:03 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:06 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:13 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:24 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:28 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:29 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:05:31 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:14 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:36 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:38 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:40 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:41 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:42 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:43 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:46 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:46 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:47 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:47 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:48 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:49 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:07:53 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:11:46 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:11:50 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:13:14 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:13:15 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:13:17 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:13:18 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:13:20 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:21:09 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:21:18 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:21:20 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:24:22 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:24:24 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:24:26 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:24:28 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:24:31 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:24:32 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:38:52 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:34 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:36 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:36 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:37 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:37 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:37 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:43 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:43 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:44 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:46 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:48 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:48 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:48 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:49 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:49 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:49 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:50 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:50 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:50 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:57 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 9:39:57 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:40:00 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:40:01 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:40:37 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:40:38 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:42:03 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:42:04 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:57:47 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:57:48 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:57:50 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:57:50 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 9:57:51 pm",
-        "prod_name": "Mango People T-shirt 2",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 10:41:08 pm",
-        "prod_name": "Mango People T-shirt 1",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 10:41:09 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "change"
-    },
-    {
-        "time": "19 Mar 2021, 10:41:09 pm",
-        "prod_name": "Mango People T-shirt 3",
-        "action": "remove"
-    },
-    {
-        "time": "19 Mar 2021, 10:41:24 pm",
-        "prod_name": "Футболка мужская",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 10:41:25 pm",
-        "prod_name": "Куртка",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 10:41:26 pm",
-        "prod_name": "Блузка",
-        "action": "add"
-    },
-    {
-        "time": "19 Mar 2021, 10:41:27 pm",
-        "prod_name": "Блузка",
-        "action": "change"
-    },
-    {
-        "time": "23 Mar 2021, 10:42:02 pm",
-        "prod_name": "Футболка мужская",
-        "action": "remove"
-    },
-    {
-        "time": "24 Mar 2021, 9:47:18 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:47:20 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:47:22 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:47:25 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:47:27 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:47:28 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:59:37 pm",
-        "prod_name": "Блузка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:59:39 pm",
+        "time": "25 Mar 2021, 10:50:25 pm",
         "prod_name": "Блузка",
         "action": "remove"
     },
     {
-        "time": "24 Mar 2021, 9:59:52 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:59:52 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 9:59:53 pm",
+        "time": "25 Mar 2021, 10:51:01 pm",
         "prod_name": "Футболка мужская",
         "action": "add"
     },
     {
-        "time": "24 Mar 2021, 10:02:01 pm",
+        "time": "25 Mar 2021, 10:51:09 pm",
         "prod_name": "Блузка",
         "action": "add"
     },
     {
-        "time": "24 Mar 2021, 10:11:56 pm",
-        "prod_name": "Блузка",
-        "action": "remove"
-    },
-    {
-        "time": "24 Mar 2021, 10:12:09 pm",
-        "prod_name": "Футболка мужская",
-        "action": "remove"
-    },
-    {
-        "time": "24 Mar 2021, 10:12:14 pm",
+        "time": "25 Mar 2021, 10:51:15 pm",
         "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 10:14:11 pm",
-        "prod_name": "Блузка",
         "action": "add"
     },
     {
-        "time": "24 Mar 2021, 10:14:12 pm",
-        "prod_name": "Футболка мужская",
-        "action": "add"
-    },
-    {
-        "time": "24 Mar 2021, 10:17:18 pm",
-        "prod_name": "Платье",
-        "action": "add"
-    },
-    {
-        "time": "24 Mar 2021, 10:17:35 pm",
-        "prod_name": "Платье",
-        "action": "remove"
-    },
-    {
-        "time": "24 Mar 2021, 10:20:15 pm",
-        "prod_name": "Футболка мужская",
-        "action": "remove"
-    },
-    {
-        "time": "24 Mar 2021, 10:22:00 pm",
-        "prod_name": "Блузка",
-        "action": "remove"
-    },
-    {
-        "time": "24 Mar 2021, 10:22:05 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 10:22:07 pm",
-        "prod_name": "Куртка",
-        "action": "remove"
-    },
-    {
-        "time": "24 Mar 2021, 10:22:14 pm",
-        "prod_name": "Футболка мужская",
-        "action": "add"
-    },
-    {
-        "time": "24 Mar 2021, 10:22:15 pm",
+        "time": "25 Mar 2021, 10:51:25 pm",
         "prod_name": "Футболка мужская",
         "action": "change"
     },
     {
-        "time": "24 Mar 2021, 10:22:15 pm",
-        "prod_name": "Футболка мужская",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 10:22:16 pm",
-        "prod_name": "Блузка",
-        "action": "add"
-    },
-    {
-        "time": "24 Mar 2021, 10:22:16 pm",
+        "time": "25 Mar 2021, 10:51:42 pm",
         "prod_name": "Блузка",
         "action": "change"
     },
     {
-        "time": "24 Mar 2021, 10:22:17 pm",
+        "time": "25 Mar 2021, 10:51:44 pm",
         "prod_name": "Куртка",
-        "action": "add"
+        "action": "change"
     },
     {
-        "time": "24 Mar 2021, 10:22:24 pm",
+        "time": "25 Mar 2021, 10:51:46 pm",
         "prod_name": "Футболка мужская",
         "action": "change"
     },
     {
-        "time": "24 Mar 2021, 10:22:29 pm",
+        "time": "25 Mar 2021, 10:51:48 pm",
         "prod_name": "Блузка",
         "action": "change"
     },
     {
-        "time": "24 Mar 2021, 10:22:35 pm",
+        "time": "25 Mar 2021, 10:51:49 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 10:51:55 pm",
         "prod_name": "Футболка мужская",
         "action": "change"
     },
     {
-        "time": "24 Mar 2021, 10:23:27 pm",
+        "time": "25 Mar 2021, 10:51:57 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 10:51:58 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 10:52:17 pm",
+        "prod_name": "Куртка",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 10:53:01 pm",
         "prod_name": "Футболка мужская",
         "action": "remove"
     },
     {
-        "time": "24 Mar 2021, 10:23:30 pm",
-        "prod_name": "Куртка",
+        "time": "25 Mar 2021, 11:13:07 pm",
+        "prod_name": "Футболка мужская",
         "action": "remove"
     },
     {
-        "time": "24 Mar 2021, 10:23:37 pm",
-        "prod_name": "Куртка",
-        "action": "add"
-    },
-    {
-        "time": "24 Mar 2021, 10:23:37 pm",
-        "prod_name": "Куртка",
-        "action": "change"
-    },
-    {
-        "time": "24 Mar 2021, 10:23:38 pm",
+        "time": "25 Mar 2021, 11:13:31 pm",
         "prod_name": "Футболка мужская",
         "action": "add"
     },
     {
-        "time": "24 Mar 2021, 10:23:51 pm",
+        "time": "25 Mar 2021, 11:13:32 pm",
+        "prod_name": "Блузка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:33 pm",
+        "prod_name": "Куртка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:36 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:37 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:39 pm",
         "prod_name": "Куртка",
         "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:40 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:41 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:42 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:52 pm",
+        "prod_name": "Футболка мужская",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:52 pm",
+        "prod_name": "Куртка",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:13:52 pm",
+        "prod_name": "Блузка",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:34 pm",
+        "prod_name": "Футболка мужская",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:35 pm",
+        "prod_name": "Куртка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:36 pm",
+        "prod_name": "Блузка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:36 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:39 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:45 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:50 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:50 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:52 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:52 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:54 pm",
+        "prod_name": "Блузка",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:14:55 pm",
+        "prod_name": "Куртка",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:46 pm",
+        "prod_name": "Футболка мужская",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:47 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:47 pm",
+        "prod_name": "Блузка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:47 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:48 pm",
+        "prod_name": "Куртка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:48 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:49 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:16:58 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:17:26 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:17:27 pm",
+        "prod_name": "Куртка",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:17:38 pm",
+        "prod_name": "Футболка мужская",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:01 pm",
+        "prod_name": "Футболка мужская",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:16 pm",
+        "prod_name": "Футболка мужская",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:16 pm",
+        "prod_name": "Блузка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:17 pm",
+        "prod_name": "Куртка",
+        "action": "add"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:17 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:18 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:18 pm",
+        "prod_name": "Блузка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:19 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:19 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:34 pm",
+        "prod_name": "Куртка",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:34 pm",
+        "prod_name": "Куртка",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:37 pm",
+        "prod_name": "Футболка мужская",
+        "action": "change"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:50 pm",
+        "prod_name": "Футболка мужская",
+        "action": "remove"
+    },
+    {
+        "time": "25 Mar 2021, 11:18:50 pm",
+        "prod_name": "Блузка",
+        "action": "remove"
     }
 ]
