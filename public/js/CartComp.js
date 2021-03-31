@@ -40,24 +40,30 @@ Vue.component('cart', {
         },
         removeAll() {
             if(!this.cartItems.lengh){
-                for(let el of this.cartItems){
-                    console.log(el);
-                    this.$parent.deleteJson(`/api/cart/${el.id_product}`)
-                        .then(data => {
-                            if (data.result === 1) {
-                                this.cartItems.splice(this.cartItems.indexOf(el), 1);
-                            }
-                        });
-                    }
+                this.$parent.deleteJson(`/api/cart/-1`)
+                    .then(data => {
+                        if (data.result === 1) {
+                            this.cartItems.splice(0);
+                        }
+                    }); 
             }
         },
         totalSumm() {
-                let result = 0;
+            let result = 0;
                 for(let el of this.cartItems){
-                result += el.price * el.quantity;
-            }
+                    result += el.price * el.quantity;
+                }
             return result;
-        }
+        },
+        totalQuantity() {
+        let result = 0;
+            for(let el of this.cartItems){
+                result += el.quantity;
+            }
+        if(result > 0){
+            return result
+        };
+    }
     },
     mounted(){
         this.$parent.getJson('/api/cart')
@@ -68,6 +74,9 @@ Vue.component('cart', {
             });
     },
     template: `
+    <div class="login">
+    <div class="top-basket"><a class="a-basket" href="shopping-сart.html"><img src="img/cart.png" alt="cart">
+    <div v-if="totalQuantity() > 0" class="under-basket">{{totalQuantity()}}</div></a></div>
         <div class="dropdown">
             <div class="account-btn" type="button" @click="showCart = !showCart">Моя корзина&nbsp;&nbsp;</div>
             <div class="drop account-drop" v-show="showCart">
@@ -85,7 +94,8 @@ Vue.component('cart', {
             </div>
              <a class="drop-box-btn pink-btn" href="shopping-сart.html">В корзину</a>
             </div>
-        </div>`
+        </div>
+    </div>`
 });
 
 Vue.component('cart-item', {
