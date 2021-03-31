@@ -1,0 +1,17 @@
+[
+    {
+        "time": "31 Mar 2021, 6:39:11 pm",
+        "prod_name": "Футболка мужская",
+        "action": "add"
+    },
+    {
+        "time": "31 Mar 2021, 6:39:12 pm",
+        "prod_name": "Блузка",
+        "action": "add"
+    },
+    {
+        "time": "31 Mar 2021, 6:39:16 pm",
+        "prod_name": "ALL",
+        "action": "remove"
+    }
+]
